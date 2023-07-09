@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 body{
+    display: flex;
     font-family: 'Josefin Sans';
     background: linear-gradient(to left,#0097b2,#7ed957);
 }
