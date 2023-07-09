@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body{
+    font-family: 'Josefin Sans';
+    background: linear-gradient(to left,#0097b2,#7ed957);
+}
+.h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    background-color: white;
+    padding: 2%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 7px 5px 15px;
+}
+.button{
+    font-family: 'Josefin Sans';
+    border: 0;
+    margin-bottom: 5px;
+    background: linear-gradient(to left,#0097b2,#7ed957);
+    border-radius: 4px;
+    padding: 5px;
+    height: 30px;
+    width: 25%;
+    color: white;
+}
+.gif{
+    text-align: center;
+}

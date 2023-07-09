@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prova Bimestral</title>
+    <link rel="stylesheet" href="prova.css">
+</head>
+<body>
+    <div id="div1">
+        <h2>Cálculo de combustível</h2>
+        <p></p>
+        <table width="100%">
+            <form method="post">
+            <tr>
+                <td>
+                    Distância percorrida (km) <img src="info.svg" width="4%">
+                </td>
+                <td>
+                    Consumo médio do veículo (km/l) <img src="info.svg" width="4%">
+                </td>
+                <td>
+                    Preço por litro (R$) <img src="info.svg" width="4%">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="km" id="km" class="inputs" size="37">
+                </td>
+                <td>
+                    <input type="text" name="consumo" id="consumo" class="inputs" size="37">
+                </td>
+                <td>
+                    <input type="text" name="preço" id="preço" class="inputs" size="37">
+                </td>
+            </tr>
+        </table>
+        <p>
+            <button type="button" onclick="Calculo()" id="calcular">Calcular</button>
+            <input type="reset" id="limpar" name="Limpar" value="Limpar">
+        </p>
+        </form>
+    </div>
+    <p></p>
+    <div id="div2">
+    </div>
+    <script src="prova.js"></script>
+</body>
+</html>

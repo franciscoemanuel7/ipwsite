@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete</title>
+</head>
+<body>
+    <h1 style="text-align: center; background-color: grey;">Enquete</h1>
+    <hr color="black">
+    <fieldset>
+        <form method="post">
+            <legend>Enquete</legend>
+            <p>1. Qual linguagem de programação você mais gosta?</p>
+            <input type="radio" name="python" id="python">Python<br>
+            <input type="radio" name="php" id="php">PHP<br>
+            <input type="radio" name="java" id="java">Java<br>
+            <input type="radio" name="cplus" id="cplus">C++<p>
+            <center><button type="button" onclick="Resul()">Votar</button></center>
+        </form>
+    </fieldset>
+    <p></p>
+    <fieldset>
+        <legend>Resultado</legend>
+        <div id="resul"></div>
+    </fieldset>
+    <script src="enquete.js"></script>
+</body>
+</html>

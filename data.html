@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+</head>
+<body>
+    <script>
+        let hoje = new Date();
+        let dia = hoje.getDate();
+        let mes = hoje.getMonth();
+        let ano = hoje.getFullYear();
+        let Mes = new Array();
+            Mes[0] = "Janeiro";
+            Mes[1] = "Fevereiro";
+            Mes[2] = "Março";      
+            Mes[3] = "Abril";
+            Mes[4] = "Maio";
+            Mes[5] = "Junho";
+            Mes[6] = "Julho";
+            Mes[7] = "Agosto";
+            Mes[8] = "Setembro";
+            Mes[9] = "Outubro";
+            Mes[10] = "Novembro";
+            Mes[11] = "Dezembro";
+        document.write(`Hoje é ${dia} de ${Mes[mes]} de ${ano}`);
+    </script>
+</body>
+</html>
